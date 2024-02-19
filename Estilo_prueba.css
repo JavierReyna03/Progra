@@ -1,0 +1,132 @@
+body {
+    background-color: #C0C0C0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #FF8C00	;
+    color: #fff;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.blanco {
+    color: white;
+    text-align: center;
+}
+
+hr {
+    height: 10px;
+    background-color: #FFA500;
+    width: 50%;
+}
+article {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.acomodo {
+    display: flex;
+    justify-self: center;
+    margin-left: 32.5%;
+    width: 35%;
+    height: auto;
+}
+
+.imgferr {
+    display: inline;
+    justify-self: center;
+    margin-left: 5.75%;
+    width: 30%;
+    height: auto;
+    size: 10px;
+    float: left;
+}
+.subh2 {
+    color: white;
+    text-align: justify;
+    padding: 20px;
+}
+
+.textoacom {
+    padding-left: 30px;
+    justify-content: space-around;
+    padding-right: 90px;
+}
+
+.pilotos {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+table {
+    table-layout: fixed;
+    width: 50%;
+    border-collapse: separate;
+    border: 3px solid blue;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    float: left;
+}
+
+.max {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+aside {color:blue;
+font-size:1.5em;
+
+padding:10px;
+}
+
+video {
+    width: 700px ;
+    height: 400px ;
+    padding: 35px;
+}
+
+pre {
+    padding: 20px;
+}
